@@ -1,0 +1,24 @@
+@import 'tailwindcss';
+
+.editor-size .tiptap {
+  height: 100%;
+}
+
+.ProseMirror-focused {
+  outline: none;
+}
+
+.ProseMirror {
+  height: 100%;
+}
+
+div:has(> div.ProseMirror) {
+  height: 100%;
+}
+
+.cm-editor {
+    font-family: monospace;
+    height: 100%;
+    overflow: auto;
+    padding: 1rem;
+}
